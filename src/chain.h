@@ -166,6 +166,7 @@ public:
     CBlockIndex* pskip;
 
     //! height of the entry in the chain. The genesis block has height 0
+    //[Rajith] Is this the nonce??
     int nHeight;
 
     //! Which # file this block is stored in (blk?????.dat)
